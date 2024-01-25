@@ -1,0 +1,49 @@
+/* @media screen and (min-width: 765px) {
+  body {
+    background-color: aqua;
+  }
+  p {
+    font-size: 10px;
+  }
+  #button1 {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 765px) {
+  body {
+    background-color: blanchedalmond;
+  }
+  .menu {
+    display: none;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 35px;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.menu li {
+  text-decoration: none;
+  text-decoration-line: none;
+} */

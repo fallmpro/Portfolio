@@ -7,6 +7,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 105ch;
   display: flex;
+  margin-left: 1%;
 }
 
 .entreprise-pres {
@@ -17,6 +18,7 @@
   overflow: hidden;
   border-right: 1px solid;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
 }
 
 @keyframes typing {
@@ -93,44 +95,48 @@
   text-align: center;
 }
 
-.paragraphe{
-    text-align: center;
-}
-
-.loc{
-  margin-left: 33%;
-}
-
-.org{
+.paragraphe {
   text-align: center;
 }
 
-.kili-diag{
+.loc {
   margin-left: 33%;
 }
 
-.title-clients{
-text-align: center;
+.org {
+  text-align: center;
 }
 
-.chiffres{
-margin-top: 10%;
-text-align: center;
+.kili-diag {
+  margin-left: 33%;
 }
 
-.global{
+.title-clients {
+  text-align: center;
+}
+
+.chiffres {
+  /* margin-top: 10%; */
+  text-align: center;
+}
+
+.global {
   display: flex;
   justify-content: center;
-  margin-top: 12%;
+  /* margin-top: 6%; */
 }
 
-.info-global{
+.info-global {
   text-align: center;
-  margin-top: 4%;
+  /* margin-top: 4%; */
+}
+
+.organigramme {
+  /* margin-top: 5%; */
+  text-align: center;
 }
 
 
-.organigramme{
-  margin-top: 13%;
+.resau-info{
   text-align: center;
 }

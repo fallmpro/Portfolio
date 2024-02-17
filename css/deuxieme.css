@@ -35,7 +35,7 @@ html {
 
 body {
   margin: 0px;
-  cursor: url('img/cursor.cur'),auto;
+  cursor: url("img/cursor.cur"), auto;
 }
 
 ul {
@@ -211,7 +211,7 @@ a {
   /* justify-content: space-between; */
   /* max-width: 90%; */
   padding: 50px;
-  border: 7px solid rgb(255, 255, 255);
+  border: 7px solid rgb(78, 201, 67);
   max-width: 22%;
   border-radius: 10%;
 }
@@ -241,7 +241,7 @@ a {
   /* justify-content: space-between; */
   /* max-width: 90%; */
   padding: 50px;
-  border: 7px solid rgb(255, 255, 255);
+  border: 7px solid rgb(78, 201, 67);;
   max-width: 22%;
   border-radius: 10%;
 }
@@ -266,7 +266,7 @@ a {
   /* justify-content: space-between; */
   /* max-width: 90%; */
   padding: 50px;
-  border: 7px solid rgb(255, 255, 255);
+  border: 7px solidrgb(78, 201, 67);
   max-width: 22%;
   border-radius: 10%;
 }
@@ -325,7 +325,7 @@ a {
 }
 
 .cnil img {
-  height: 120px;
+  height: 140px;
 }
 
 .certifications {
@@ -337,7 +337,19 @@ a {
   margin-bottom: 20px;
   text-align: center;
   padding: 50px;
-  border: 7px solid rgb(255, 255, 255);
+  border: 7px solid rgb(78, 201, 67);
   max-width: 22%;
   border-radius: 10%;
 }
+
+/* ------------------------------------------------------------------------------------------------ */
+/* 
+@media only screen and (max-width: 450px) {
+  .rubrique ul {
+    margin-left: 10%;
+  }
+
+  .sommaire {
+    font-size: 80%;
+  }
+} */

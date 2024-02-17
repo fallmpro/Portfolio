@@ -3,6 +3,12 @@ html{
     color: rgb(78, 201, 67);
 }
 
+body {
+  margin: 0px;
+  cursor: url("img/cursor.cur"), auto;
+}
+
+
 .titre-txt-adv {
   color: rgb(78, 201, 67);
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;

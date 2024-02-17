@@ -12,7 +12,7 @@
 
 .entreprise-pres {
   color: rgb(78, 201, 67);
-  width: 56ch;
+  width: 58ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;

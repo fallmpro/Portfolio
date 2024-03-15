@@ -1,10 +1,11 @@
 html {
   background-color: #000000;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 a {
   color: rgb(255, 255, 255);
-  font-family: monospace;
+  /* font-family: monospace; */
   font-size: 2em;
 }
 
@@ -17,12 +18,12 @@ a {
 
 .typing-demo {
   color: rgb(78, 201, 67);
-  width: 44ch;
+  width: 38ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: monospace;
+  /* font-family: monospace; */
   font-size: 2em;
 }
 
@@ -35,9 +36,9 @@ a {
 
 .txt-button {
   color: rgb(78, 201, 67);
-  font-family: monospace;
+  /* font-family: monospace; */
   font-size: 1em;
-  width: 50ch;
+  width: 42ch;
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -55,3 +56,4 @@ a {
     border-color: transparent;
   }
 }
+

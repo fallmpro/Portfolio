@@ -13,6 +13,9 @@
             cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAwAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAGAAAADAAAAAwAAAAYAAABGAAAAbAAAAHwAAAB/gAAAfwAAAH4AAAB8AAAAeAAAAHAAAABgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////////////////////////////////////////////////5////8P////D////h///94f///MP///xD///8B////AB///wA///8Af///AP///wH///8D////B////w////8f////P/////////////////////////8='), auto;
         }
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,9 +25,9 @@
 
         <div class="titre">
 
-            <h4>
+            <h2>
                 <a href="deuxieme.html" target="_blank" rel="noopener noreferrer">Portfolio de Mouhamad FALL</a>
-            </h4>
+            </h2>
 
         </div>
 
@@ -32,12 +35,6 @@
 
             <ul>
 
-                <!-- 
-                <li>
-                    <a href="deuxieme.html">
-                        Acceuil
-                    </a>
-                </li> -->
 
                 <li>
                     <a href="entreprise.html">
@@ -64,14 +61,8 @@
                     </a>
                 </li>
 
-                <!-- <li>
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </li> -->
 
             </ul>
-
         </div>
 
     </div>
@@ -94,75 +85,27 @@
     </div> -->
 
     <div class="boutons">
-        <button class="btn" onclick="showContent('content1')">Projet année 1</button>
-        <button class="btn" onclick="showContent('content2')">Projet année 2</button>
+        <button class="btn" onclick="showContent('content1')">projets année 1</button>
+        <button class="btn" onclick="showContent('content2')">Projets année 2</button>
     </div>
 
     <div class="contents">
 
         <div id="content1" style="display: none;">
-            <h2>Missions de ma première année</h2>
+            <h2 class="prem">Missions de ma première année</h2>
             <!-- <p>Voici les missions.</p> -->
             <div class="mission-vignettes">
 
-                <div class="mission-vignette1">
-                    <h3>Projet n°1</h3>
-                    <hr class="hr_card">
-                    <h2>Projet TinyCar</h2>
-                    <p>TinyCar était un projet d'initiation au Langage Java, ce dernier avait pour but d'effectuer
-                        plusieurs achats pour pouvoir ensuite écrire les prix hors taxe en fonction des prix toute taxe
-                        comprise</p>
-                    <h3>Projet terminé </h3>
-                    <h2>Rôle : Dévellopeur</h2>
-                    <hr class="hr-foot1">
-                    <div class="icons-tinycar">
-                        <i class="fa-brands fa-java fa-2xl" style="color: #c73d3d;"></i>
-                    </div>
-
-                    <div>
-                        <hr class="hr-foot2">
-                        <p>
-                            Pour en savoir plus sur le projet cliqué ci-dessous
-                        </p>
-                        <a href="tinycar.html" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
-                    </div>
-                </div>
-
-
-                <!-- <div class="mission-vignette1">
-                    <h3>Projet n°2</h3>                    
-                    <hr class="hr_card">
-                    <h2>Projet Alwaysdata (Déploiement d'un site web) </h2>
-                    <p>
-                        L'objectif de cette activité était d'acquérir des compétences dans l'utilisation d'un serveur
-                        déjà hébergé et préalablement installé, ainsi que de le configurer selon nos besoins
-                        spécifiques.</p>
-                    <h3>Projet terminé </h3>
-                    <h2>Rôle : Dévellopeur</h2>
-                    <hr class="hr-foot1">
-                    <div class="icons-tinycar">
-                        <i class="fa-solid fa-terminal fa-2xl" style="color: #4ec93d;"></i>
-                    </div>
-
-                    <div>
-                        <hr class="hr-foot2">
-                        <p>
-                            Pour en savoir plus sur le projet cliqué ci-dessous
-                        </p>
-                        <a href="tinycar.html" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
-                    </div>
-                </div> -->
+                
 
                 <div class="mission-vignette1">
-                    <h3>Projet n°2</h3>
+                    <!-- <h3>Projet n°2</h3> -->
+                    <img src="img/auacademy.png" alt="" srcset="">
                     <hr class="hr_card">
                     <h2>Projet TextAdventure </h2>
-                    <p>Text adventure est l'un de mes premiers projets Python, ce projet consiste à dévelloper un jeu
+                    <p>Text adventure est l'un de mes premiers projets Python, ce projet consiste à développer un jeu
                         afin d'y jouer dans un terminal</p>
                     <h3>Projet Terminé</h3>
-                    <h2>Rôle : Dévellopeur</h2>
                     <hr class="hr-foot1">
                     <div class="icons1">
                         <i class="fa-solid fa-terminal fa-2xl" style="color: #4ec93d;"></i>
@@ -178,37 +121,14 @@
                     </div>
                 </div>
 
-                <div class="mission-vignette1">
-                    <h3>Projet n°3</h3>
-                    <hr class="hr_card">
-                    <h2>Projet EasyLine</h2>
-                    <p>Easyline est un projet qui consiste a dévelloper la gestion d'une compagnie aérienne pour les
-                        voyageurs.</p>
-                    <h3>Projet en cours</h3>
-                    <h2>Rôle : Dévellopeur</h2>
-                    <hr class="hr-foot1">
-                    <div class="icons2">
-                        <i class="fa-brands fa-java fa-2xl" style="color: #c73d3d;"></i>
-                        <i class="fa-solid fa-database fa-2xl" style="color: #bfc841;"></i>
-                        <div>
-                            <hr class="hr-foot2">
-                            <p>
-                                Pour en savoir plus sur le projet cliqué ci-dessous
-                            </p>
-                            <a href="tinycar.html" target="_blank" rel="noopener noreferrer"><i
-                                    class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
-                        </div>
-                    </div>
-                </div>
 
 
                 <div class="mission-vignette1">
-                    <h3>Projet n°4</h3>
+                    <img src="img/fukuoka_subway_logo.png" alt="" srcset="">
                     <hr class="hr_card">
                     <h2>Projet Billieterie du métro japonais</h2>
-                    <p>Le projet consistait a mettre en oeuvre un outil pour reserver des billiets de train </p>
+                    <p>Le projet consistait à mettre en oeuvre un outil pour réserver des billets de train </p>
                     <h3>Projet terminé</h3>
-                    <h2>Rôle : Dévellopeur</h2>
                     <hr class="hr-foot1">
                     <div class="icons4">
                         <i class="fa-solid fa-terminal fa-2xl" style="color: #4ec93d;"></i>
@@ -224,6 +144,55 @@
                                 class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
                     </div>
                 </div>
+
+                <div class="mission-vignette1">
+                    <img src="img/rugby.png" alt="" srcset="">
+                    <hr class="hr_card">
+                    <h2>Rugby Tropical Cup</h2>
+                    <p>Création d'un site web qui nous informe de toutes les actualités de la Rugby Tropical Cup</p>
+                    <h3>Projet terminé</h3>
+                    <hr class="hr-foot1">
+                    <div class="icons4">
+                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd431d;"></i>
+                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #229fec;"></i>
+                        <i class="fa-brands fa-js fa-2xl" style="color: #ffea00;"></i>
+                        <i class="fa-brands fa-python fa-2xl" style="color: #386ca3;"></i>
+                    </div>
+
+                    <div>
+                        <hr class="hr-foot2">
+                        <p>
+                            Pour en savoir plus sur le projet cliqué ci-dessous
+                        </p>
+                        <a href="rugby.html" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
+                    </div>
+                </div>
+
+                <div class="mission-vignette1">
+                    <img src="img/france-info.png" alt="" srcset="">
+                    <hr class="hr_card">
+                    <h2>Clone de France-Info </h2>
+                    <p>Clonage du site web france-info dans le cadre de mon apprentissage au développement web</p>
+                    <h3>Projet terminé</h3>
+                    <hr class="hr-foot1">
+                    <div class="icons4">
+                        <i class="fa-brands fa-html5 fa-2xl" style="color: #dd431d;"></i>
+                        <i class="fa-brands fa-css3-alt fa-2xl" style="color: #229fec;"></i>
+                        <i class="fa-brands fa-js fa-2xl" style="color: #ffea00;"></i>
+                        <i class="fa-brands fa-python fa-2xl" style="color: #386ca3;"></i>
+                    </div>
+
+                    <div>
+                        <hr class="hr-foot2">
+                        <p>
+                            Pour en savoir plus sur le projet cliqué ci-dessous
+                        </p>
+                        <a href="france.html" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
+                    </div>
+                </div>
+                
             </div>
 
             <hr class="hr-contact">
@@ -246,18 +215,16 @@
         <!-- ------------------------------------------------------------------ -->
 
         <div id="content2" style="display: none;">
-            <h2>Missions de ma deuxième année</h2>
+            <h2 class="deux">Missions de ma deuxième année</h2>
 
             <div class="mission-vignettes">
 
 
                 <div class="mission-vignette1">
-                    <h3>Projet n°1</h3>
+                    <img src="img/sky.png" alt="" srcset="">
                     <hr class="hr_card">
                     <h2>Skypiea</h2>
-                    <p>Le projet consistait a mettre en oeuvre un outil pour reserver des billiets de train </p>
                     <h3>Projet En cours</h3>
-                    <h2>Rôle : Dévellopeur</h2>
                     <hr class="hr-foot1">
                     <div class="icons4">
                         <i class="fa-brands fa-java fa-2xl" style="color: #c73d3d;"></i>
@@ -270,18 +237,17 @@
                         <p>
                             Pour en savoir plus sur le projet cliqué ci-dessous
                         </p>
-                        <a href="tinycar.html" target="_blank" rel="noopener noreferrer"><i
+                        <a href="skypiea.html" target="_blank" rel="noopener noreferrer"><i
                                 class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
                     </div>
                 </div>
 
                 <div class="mission-vignette1">
-                    <h3>Projet n°2</h3>
+                    <img src="img/pong.avif" alt="">
                     <hr class="hr_card">
-                    <h2>Jeu Snake</h2>
-                    <p>Mise en place d'un site qui pourra permettre a l'utilisateur de jouer au jeu célèbre Snake </p>
+                    <h2>Pong de Momo</h2>
+                    <p>Mise en place d'un site qui pourra permettre à l'utilisateur de jouer au jeu célèbre Snake </p>
                     <h3>Projet En cours</h3>
-                    <h2>Rôle : Dévellopeur</h2>
                     <hr class="hr-foot1">
                     <div class="icons4">
                         <i class="fa-brands fa-html5 fa-2xl" style="color: #dd431d;"></i>
@@ -301,12 +267,11 @@
                 </div>
 
                 <div class="mission-vignette1">
-                    <h3>Projet n°3</h3>
+                    <img src="img/tc_mini .png" alt="" srcset="">
                     <hr class="hr_card">
                     <h2>PokedexAPI</h2>
                     <p>Mise en place d'un Wiki sur les pokémons. </p>
                     <h3>Projet terminé</h3>
-                    <h2>Rôle : Dévellopeur</h2>
                     <hr class="hr-foot1">
                     <div class="icons4">
                         <i class="fa-solid fa-terminal fa-2xl" style="color: #4ec93d;"></i>
@@ -321,26 +286,25 @@
                         <p>
                             Pour en savoir plus sur le projet cliqué ci-dessous
                         </p>
-                        <a href="tinycar.html" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
+                        <a href="pokedex.html" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
+                        </div>
                     </div>
-                </div>
+                    
+                    
 
                 <div class="mission-vignette1">
-                    <h3>Projet n°4</h3>
+                    <img src="img/glpi.png" alt="" srcset="">
                     <hr class="hr_card">
-                    <h2>Rugby Tropical Cup</h2>
-                    <p> Création d'un site web qui nous informe den toutes les actualités de la Rugby Tropical Cup</p>
-                    <h3>Projet terminé</h3>
-                    <h2>Rôle : Dévellopeur</h2>
-                    <hr class="hr-foot1">
-                    <div class="icons4">
-                        <i class="fa-solid fa-terminal fa-2xl" style="color: #4ec93d;"></i>
+                    <h2>Résolution d'un ticket</h2>
+                    <!-- <p> Création d'un site web qui nous informe den toutes les actualités de la Rugby Tropical Cup</p> -->
+                    <!-- <div class="icons4"> -->
+                        <!-- <i class="fa-solid fa-terminal fa-2xl" style="color: #4ec93d;"></i>
                         <i class="fa-brands fa-html5 fa-2xl" style="color: #dd431d;"></i>
                         <i class="fa-brands fa-css3-alt fa-2xl" style="color: #229fec;"></i>
                         <i class="fa-brands fa-js fa-2xl" style="color: #ffea00;"></i>
-                        <i class="fa-brands fa-python fa-2xl" style="color: #386ca3;"></i>
-                    </div>
+                        <i class="fa-brands fa-python fa-2xl" style="color: #386ca3;"></i> -->
+                    <!-- </div> -->
 
                     <div>
                         <hr class="hr-foot2">
@@ -351,7 +315,6 @@
                                 class="fa-solid fa-angle-right" style="color: #4ec904;"></i></a>
                     </div>
                 </div>
-
 
             </div>
 
@@ -393,15 +356,6 @@
     <script src="real.js"></script>
 
 
-    <!-- <div class="contact">
-
-        <a href="http://linkedin.com/in/fall-mouhamad" target="_blank" rel="noopener noreferrer">
-
-            <i class="fa-brands fa-linkedin fa-2xl" style="color: #4482ee;"></i>
-
-        </a>
-        <i class="fa-brands fa-gitlab fa-2xl" style="color: #df5f34;"></i>
-    </div> -->
 </body>
 
 </html>

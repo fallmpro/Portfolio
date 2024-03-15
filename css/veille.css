@@ -4,22 +4,21 @@
   padding-top: 65px;
   white-space: nowrap;
   overflow: hidden;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   width: 120ch;
   display: flex;
+  margin-left: 1%;
   /* border-right: 1px solid; */
 }
 
-.veille-pres{
+.veille-pres {
   color: rgb(78, 201, 67);
-width: 52ch;
-animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
-white-space: nowrap;
-overflow: hidden;
-border-right: 1px solid;
-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 53ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  margin-left: 1%;
 }
-
 
 @keyframes typing {
   from {
@@ -32,59 +31,49 @@ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     border-color: transparent;
   }
 }
+.tri {
+  margin-left: 1%;
+  margin-top: 1%;
+}
 
 .veille-logo {
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .hr-veille {
   background-color: rgb(78, 201, 67);
-  /* background-color: aqua; */
   height: 2px;
   border-radius: 15%;
   width: 20%;
 }
 
-.contact-veille{
+.contact-veille {
   display: flex;
   justify-content: center;
   margin-top: 2%;
   justify-content: space-evenly;
-
 }
 
-/* .logo1{
-  display: grid;
+.logo3 img {
+  height: 195px;
 }
 
-.logo2{
-  display: grid;
-}
-
-.logo3{
-  display: grid;
-} */
-
-.logo3 img{
-  height:195px
-}
-
-.logo2 img{
+.logo2 img {
   height: 165px;
 }
 
-.icons4{
+.icons4 {
   justify-content: center;
   justify-content: space-evenly;
-  margin-top: 10%
+  margin-top: 10%;
 }
 
-.logo2{
+.logo2 {
   width: 30%;
   margin-bottom: 20px;
   text-align: center;
@@ -94,7 +83,7 @@ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border-radius: 10%;
 }
 
-.logo3{
+.logo3 {
   width: 30%;
   margin-bottom: 20px;
   text-align: center;
@@ -102,4 +91,8 @@ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border: 7px solid rgb(255, 255, 255);
   max-width: 22%;
   border-radius: 10%;
+}
+
+.stars{
+  color: yellow;
 }

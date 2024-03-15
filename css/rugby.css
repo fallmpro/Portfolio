@@ -45,3 +45,74 @@ html{
   margin-left: 40%;
   margin-top: 5%;
 }
+
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Crée un espace égal entre les deux éléments */
+  align-items: center; /* Centre les éléments verticalement */
+  max-width: 975px; /* ou la largeur souhaitée */
+  margin: 0 auto; /* Centre le conteneur horizontalement */
+  text-align: center;
+  gap: 13rem;
+  margin-top: 10%;
+}
+
+
+.code_rugby{
+  margin-top: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.texte_rugby{
+  margin-top: 10%;
+}
+
+.json_rugby{
+  margin-top: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.texte_json{
+  margin-top: 10%;
+}
+
+
+.page_rugby{
+  margin-top: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.texte_page{
+  margin-top: 10%;
+}
+
+
+.bdd_rugby{
+  margin-top: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.texte_bdd{
+  margin-top: 10%;
+}
+
+.mobile_rugby{
+  margin-top: 10%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.texte_mobile{
+  margin-top: 10%;
+}
+

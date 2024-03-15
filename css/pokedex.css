@@ -128,3 +128,13 @@ height: 350px;
   justify-content: center;
   justify-content: space-evenly;
 }
+
+.trello img{
+  height: 350px;
+  }
+  
+  .trello{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }

@@ -36,3 +36,37 @@ html{
   margin-left: 40%;
   margin-top: 5%;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Crée un espace égal entre les deux éléments */
+  align-items: center; /* Centre les éléments verticalement */
+  max-width: 975px; /* ou la largeur souhaitée */
+  margin: 0 auto; /* Centre le conteneur horizontalement */
+  text-align: center;
+  gap: 13rem;
+  margin-top: 10%;
+}
+
+.info-global {
+  text-align: center;
+}
+
+.global-france {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 6%; */
+}
+
+.trello_france{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.texte_france{
+  margin-top: 10%;
+}
+.trello_france img{
+  height: 300px;
+}

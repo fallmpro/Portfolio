@@ -101,6 +101,10 @@ html{
   justify-content: space-evenly;
 }
 
+.bdd_rugby{
+  height: 450px;
+}
+
 .texte_bdd{
   margin-top: 10%;
 }
@@ -116,3 +120,6 @@ html{
   margin-top: 10%;
 }
 
+.page_rugby{
+  height: 240px;
+}

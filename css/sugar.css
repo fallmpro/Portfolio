@@ -1,0 +1,35 @@
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.titre-sugar {
+  color: rgb(78, 201, 67);
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  padding-top: 65px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 44ch;
+  display: flex;
+  text-align: center;
+}
+
+.sugar-pres {
+  color: rgb(78, 201, 67);
+  width: 39ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+}
+
+.projet_pres {
+  margin-top: 10px;
+  color: rgb(78, 201, 67);
+  align-items: center;
+  text-align: justify;
+}
+
+
+.diapo img{
+    height: 100px;
+}

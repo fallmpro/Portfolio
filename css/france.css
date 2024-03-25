@@ -64,9 +64,38 @@ html{
   margin-top: 10%;
 }
 
-.texte_france{
+/* .texte_france{
   margin-top: 10%;
-}
+} */
 .trello_france img{
   height: 300px;
+}
+
+.gitlab_france{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+
+.item_france{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.image_france{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 10%; */
+}
+
+.item_france{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 82PX;
+}
+
+.image_france img{
+  height: 100%;
 }
